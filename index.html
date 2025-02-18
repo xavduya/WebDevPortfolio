@@ -26,72 +26,166 @@
     <div class="scroll_container">
     <div class="scroll_page"> 
       <section>
-        <h2> Home</h2>
-        <p> This is my first portfolio, welcome! This is created with html, css and javascript.
+        <h2>Home</h2>
+        <p class="welcome-text">
+          Welcome to my first portfolio! I'm Matt Viduya, a student developer exploring the vast world of web development. 
+          This portfolio showcases my journey in learning and creating with HTML, CSS, and JavaScript.
         </p>
         <p class="Self_Introduction">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          As a computer science student, I'm constantly learning and growing in the field of technology. 
+          My interests span from front-end development to exploring various programming languages and frameworks. 
+          Through this portfolio, I aim to share my projects, achievements, and growth as a developer.
+          I believe in creating clean, user-friendly interfaces that provide meaningful experiences.
         </p>
       </section>
     </div>
     <div class="scroll_page">
       <section>
-        <h2 class="heading"> Projects</h2>
-        <div class = project_img_slider> 
-          <div class ="img">
-            <p class ="info"> Restaurant Management System </p>
-            <img src="Images/Restaurant_Management_System.PNG" alt="Project image holder">
+        <h2 class="heading"> Experiences </h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Stage Play (Hercules)</h3>
+              <span class="timeline-date">2018 - 2019</span>
+              <p class="timeline-location">Colegio dela Inmaculada Concepcion - Cebu</p>
+            </div>
           </div>
-          <div class ="img">
-            <p class ="info"> project img 2 </p>
-            <img src="Images/Dahyun_cat.jpg" alt="Project image holder">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>JCO</h3>
+              <span class="timeline-date">2019</span>
+              <p class="timeline-location">Colegio dela Inmaculada Concepcion - Cebu</p>
+            </div>
           </div>
-          <div class ="img">
-            <p class ="info"> project img 3 </p>
-            <img src="Images/Smiling_cat.png" alt="Project image holder">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Color Guards</h3>
+              <span class="timeline-date">2021 - 2022</span>
+              <p class="timeline-location">Colegio dela Inmaculada Concepcion - Cebu</p>
+            </div>
           </div>
-          <div class ="img">
-            <p class ="info"> project img 4 </p>
-            <img src="Images/Drunk_cat.jpg" alt="Project image holder">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Dies Praestantium</h3>
+              <span class="timeline-date">2023 - 2024</span>
+              <p class="timeline-location">iAcademy - Cebu</p>
+            </div>
           </div>
         </div>
       </section>
     </div>
     <div class="scroll_page">
       <section>
-        <h2> Achievements</h2>
-        
-        <p> I received a dies praestantium award for my academic performance 
-          in my first year of college. I was overall top 4 in my batch and 
-          participated in a few Valorant events. 
-          I have experience working on a java project called 
-          "Restaurant Management System".
-        </p>
+        <h2>Education</h2>
+        <div class="education-container">
+          <div class="education-card">
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>iAcademy - Cebu</h3>
+            <p class="year">2023 - Present</p>
+            <p class="degree">Bachelor of Science in Computer Science</p>
+            <p class="status">Currently Enrolled</p>
+          </div>
 
+          <div class="education-card">
+            <div class="education-icon">
+              <i class="fas fa-school"></i>
+            </div>
+            <h3>Colegio dela Inmaculada Concepcion</h3>
+            <p class="year">2008 - 2023</p>
+            <p class="degree">Senior High School</p>
+            <p class="status">Graduated</p>
+          </div>
+
+          <div class="education-card">
+            <div class="education-icon">
+              <i class="fas fa-child"></i>
+            </div>
+            <h3>GopherWood Learning Center</h3>
+            <p class="year">2007 - 2008</p>
+            <p class="degree">Early Education</p>
+            <p class="status">Completed</p>
+          </div>
+        </div>
       </section>
     </div>
     <div class="scroll_page"> 
       <section>
-        <h2><strong>Contacts</strong></h2>
-        <div class="contact-info">
-        <p><i class="fas fa-phone"></i><b>Cell no.<br>0999 9999 9999</b></p>
+        <h2>Get in Touch</h2>
+        <div class="contact-container">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <h3>Phone</h3>
+            <p>0999 9999 9999</p>
+            <a href="tel:+639999999999" class="contact-button">
+              <span>Call Me</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
 
-        <p><i class="fas fa-envelope"></i><b>Gmail</b><br>
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Email</h3>
+            <p>mattxayudiv@gmail.com</p>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mattxayudiv@gmail.com&su=Portfolio%20Inquiry" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="contact-button">
+              <span>Send Email</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
 
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mattxayudiv@gmail.com&su=Portfolio%20Inquiry" target="_blank" rel="noopener noreferrer">mattxayudiv@gmail.com</a>
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <h3>Instagram</h3>
+            <p>xviiii.___</p>
+            <a href="https://instagram.com/xviiii.___" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="contact-button">
+              <span>Follow</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
 
-        <p><i class="fab fa-instagram"></i><b>IG<br>xviiii.___</b></p>
-
-        <p><i class="fab fa-facebook"></i><b>Facebook<br>mattviduya</b></p>
-      </div>
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fab fa-facebook"></i>
+            </div>
+            <h3>Facebook</h3>
+            <p>Matt Xavier Viduya</p>
+            <a href="https://facebook.com/matt.m.viduya" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="contact-button">
+              <span>Connect</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
       </section>
     </div>
   </div>
 
   <div class="navigation-buttons">
     <button onclick="scrollToSection(0)"><b>Home</b></button>
-    <button onclick="scrollToSection(1)"><b>Projects</b></button>
-    <button onclick="scrollToSection(2)"><b>Achievements</b></button>
+    <button onclick="scrollToSection(1)"><b>Experiences</b></button>
+    <button onclick="scrollToSection(2)"><b>Education</b></button>
     <button onclick="scrollToSection(3)"><b>Contacts</b></button>
   </div>
 
