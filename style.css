@@ -143,14 +143,19 @@ img {
 }
 
 .project_img_slider .info {
-  margin-top: 10px; 
-  font-size: 1rem; 
-  color: var(--text-color); 
-  transition: all 0.3s ease; 
+  margin-top: 10px;
+  font-size: .9rem;
+  color: var(--text-color);
+  transition: all 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .project_img_slider .img:hover .info {
-  opacity: 0; 
+  opacity: 0;
+  transform: translateY(-10px);
 }
 
 .Self_Introduction {
