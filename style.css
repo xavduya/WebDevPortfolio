@@ -36,7 +36,7 @@ body {
   position: fixed;
   bottom: 1rem;
   left: 1rem;
-  color: var(--text-color);
+  color: var(--accent-color);
   font-family: 'Times New Roman', Times, serif;
   font-size: 2rem;
   font-weight: 900;
